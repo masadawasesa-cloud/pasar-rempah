@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pasar Rempah — a spice auction card game</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="game" width="1280" height="800"></canvas>
+<div id="testout" style="display:none"></div>
+<script src="js/config.js"></script>
+<script src="js/cards.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/input.js"></script>
+<script src="js/render.js"></script>
+<script src="js/panel.js"></script>
+<script src="js/selftest.js"></script>
+<script src="js/game.js"></script>
+<script>
+  if (new URLSearchParams(location.search).has('shot')) document.body.classList.add('shot');
+</script>
+</body>
+</html>
